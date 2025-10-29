@@ -1,0 +1,19 @@
+public class VerificacaoCarroEsportivo {
+    public static void main(String[] args) {
+        int velocidade = 135; // Defina aqui a velocidade do carro em km/h
+        int limite = 120;     // Limite de velocidade
+        int multaPorKm = 10;  // Valor da multa por km acima do limite
+
+        if (velocidade > limite) {
+            System.out.println("Velocidade acima do limite!");
+            
+            int kmAcima = velocidade - limite;
+            int valorMulta = kmAcima * multaPorKm;
+
+            System.out.println("Você ultrapassou o limite em " + kmAcima + " km/h.");
+            System.out.println("Multa a pagar: R$ " + valorMulta);
+        } else {
+            System.out.println("Velocidade dentro do limite. Dirija com segurança!");
+        }
+    }
+}
