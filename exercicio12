@@ -1,0 +1,11 @@
+public class IdadeParaDirigir {
+    public static void main(String[] args) {
+        int idade = 17; // Defina aqui a idade desejada
+
+        if (idade >= 18) {
+            System.out.println("Você pode dirigir");
+        } else {
+            System.out.println("Você não pode dirigir");
+        }
+    }
+}
