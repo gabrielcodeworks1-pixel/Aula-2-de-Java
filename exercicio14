@@ -1,0 +1,14 @@
+public class VerificacaoEleicao {
+    public static void main(String[] args) {
+        int idade = 19; // Defina aqui a idade que deseja testar
+
+        if (idade >= 18) {
+            System.out.println("Você pode votar");
+            System.out.println("Você deve votar");
+        } else if (idade >= 16) {
+            System.out.println("Você pode votar");
+        } else {
+            System.out.println("Você não pode votar");
+        }
+    }
+}
