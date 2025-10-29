@@ -1,0 +1,13 @@
+public class QualidadeDeAgua {
+    public static void main(String[] args) {
+        double ph = 7.5; // Defina aqui o valor do pH
+
+        if (ph < 7) {
+            System.out.println("Ácido");
+        } else if (ph == 7) {
+            System.out.println("Neutro");
+        } else {
+            System.out.println("Alcalino");
+        }
+    }
+}
