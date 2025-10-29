@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author Admin
+ */
+public class Exercicio10 {
+    public static void main(String[] args) {
+        double peso = 68.0;
+        double altura = 1.72;
+
+        double imc = peso / (altura * altura);
+        String classificacao;
+
+        if (imc < 18.5) {
+            classificacao = "Abaixo do peso";
+        } else if (imc >= 18.5 && imc < 25) {
+            classificacao = "Peso normal";
+        } else if (imc >= 25 && imc < 30) {
+            classificacao = "Sobrepeso";
+        } else {
+            classificacao = "Obesidade";
+        }
+
+        System.out.println("Seu IMC é: " + imc);
+        System.out.println("Classificação: " + classificacao);
+    }
+}
