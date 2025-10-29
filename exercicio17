@@ -1,0 +1,16 @@
+public class AnoBissextoCompacto {
+
+    public static void main(String[] args) {
+        int ano = 2024;
+
+        System.out.println("Verificando se o ano " + ano + " é bissexto...");
+
+        // Condição composta em uma única linha
+        if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)) {
+            System.out.println(ano + " é um ano bissexto.");
+        } 
+        else {
+            System.out.println(ano + " NÃO é um ano bissexto.");
+        }
+    }
+}
